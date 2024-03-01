@@ -1,0 +1,272 @@
+:root {
+    --main-color: #9356DC;
+    --main-bg-color: #FF79DA;
+    --filter-bg-color: #99E2D0;
+}
+
+.logo-div {
+    height: 63px;
+}
+
+.logo {
+    font-family: Shrikhand;
+    font-weight: 400;
+    font-style: italic;
+    line-height: 43.74px;
+    text-align: center;
+    font-size: 30px;
+    height: 44px;
+    width: 162px;
+    margin-left: 106px;
+    color: #101010;
+}
+
+p {
+    font-family: Roboto;
+}
+
+.location {
+    background-color: #EAEAEA;
+    height: 50px;
+}
+
+.fa-location-dot {
+    color: #353535;
+    width: 12px;
+    height: 16px;
+    margin-left: 110px;
+}
+
+.location-p {
+    margin-top: 15px;
+    margin-left: 10px;
+    display: inline-block;
+}
+
+.banner {
+    background-color: #F3F3F3;
+    height: 280px;
+    margin-top: -20px;
+}
+
+.banner-h2 {
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28.13px;
+    text-align: center;
+    color: #000000;
+    padding-top: 39px;
+    margin-left: 5px;
+}
+
+.banner-p {
+    margin-top: -10px;
+    margin-bottom: 27px;
+    font-family: Roboto;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21.09px;
+    text-align: center;
+    color: #353535;
+}
+
+.banner-button {
+    font-family: Roboto;
+    color: white;
+    border: #F3F3F3;
+    border-radius: 25px;
+    width: 218px;
+    height: 50px;
+    background: linear-gradient(#FF79DA, #9356DC);
+    margin-left: 70px;
+    transition: 400ms;
+
+    &:hover {
+        filter: brightness(115%);
+        transform: scale(1.01);
+    }
+}
+
+.phases-h1 {
+    margin-top: 48px;
+    margin-left: 20px;
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28.13px;
+}
+
+.phases-button {
+    font-family: Roboto;
+    color: #000000;
+    font-weight: 500;
+    size: 16px;
+    line-height: 18.75px;
+    border-radius: 20px;
+    border: white;
+    width: 322.49px;
+    height: 72.38px;
+    background-color: #F6F6F6;
+    margin-bottom: 24.92px;
+    margin-left: 20px;
+}
+
+.phases-button-p {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.circle {
+    height: 24px;
+    width: 24px;
+    background-color: #9356DC;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-left: -140px;
+    margin-top: 15px;
+    display: inline-block;
+}
+
+.number {
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 14.18px;
+    line-height: 16.62px;
+    color: white;
+    height: 15.27px;
+    width: 14.55px;
+    text-align: center;
+    margin-top: 4.5px;
+    padding-left: 5px;
+}
+
+.fa-mobile-screen-button {
+    color: #7E7E7E;
+    width: 13.02px;
+    height: 19.9px;
+}
+
+.fa-list-ul {
+    color: #7E7E7E;
+    width: 16px;
+    height: 15.92px;
+}
+
+.fa-store {
+    color: #7E7E7E;
+    width: 18px;
+    height: 17.91px;
+}
+
+.restaurants {
+    background-color: #F6F6F6;
+    padding-bottom: 66px;
+}
+
+.restaurants-h2 {
+    margin-left: 20px;
+    padding-top: 54px;
+}
+
+.restaurants-card {
+    background-color: white;
+    margin-bottom: 18px;
+    margin-left: 7.5px;
+    width: 340px;
+    height: 251px;
+    border-radius: 15px;
+}
+
+.restaurants-img {
+    width: 340px;
+    height: 174px;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.restaurants-nouveau {
+    width: 80px;
+    height: 22px;
+    font-weight: 500;
+    font-size: 14px;
+    border-radius: 2px;
+    color: #008766;
+    background-color: #99E2D0;
+    position: absolute;
+    padding-top: 8px;
+    margin-top: -165px;
+    margin-left: 250px;
+    text-align: center;
+}
+
+.restaurants-h3 {
+    margin-bottom: 5px;
+    margin-top: 14px;
+    margin-left: 13px;
+    width: 267px;
+}
+
+.restaurants-p {
+    margin-top: 1px;
+    margin-left: 13px;
+    width: 247px;
+}
+
+.fa-heart {
+    margin-left: 293px;
+    margin-top: px;
+    width: 5px;
+}
+
+.footer {
+    background-color: #353535;
+    color: white;
+    height: 186px;
+    padding-left: 25px;
+}
+
+.footer-h3 {
+    font-family: Shrikhand;
+    padding-top: 22px;
+    margin-bottom: 16px;
+    width: 137.58px;
+    height: 27px;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 18px;
+    line-height: 26.24px;
+    color: #FFFFFF;
+}
+
+.fa-utensils {
+    margin-right: 10.08px;
+}
+
+.fa-handshake-angle {
+    margin-right: 10.08px;
+}
+
+.footer-p1 {
+    display: inline-block;
+    width: 90%;
+    margin-top: -10%;
+}
+
+.footer-p2 {
+    display: inline-block;
+    margin-top: -20%;
+}
+
+.footer-p3 {
+    margin-top: -3%;
+}
+
+.footer-p4 {
+    margin-top: -3%;
+}
+
+
+
+
+
+@media (min-width: 374px) {}
