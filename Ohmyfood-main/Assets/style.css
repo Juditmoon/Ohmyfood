@@ -9,16 +9,9 @@
 }
 
 .logo {
-    font-family: Shrikhand;
-    font-weight: 400;
-    font-style: italic;
-    line-height: 43.74px;
-    text-align: center;
-    font-size: 30px;
-    height: 44px;
     width: 162px;
+    margin-top: 14px;
     margin-left: 106px;
-    color: #101010;
 }
 
 p {
@@ -201,21 +194,25 @@ p {
 
 .restaurants-h3 {
     margin-bottom: 5px;
-    margin-top: 14px;
+    margin-top: 11px;
     margin-left: 13px;
-    width: 267px;
+    width: 230px;
+    display: inline-block;
 }
 
 .restaurants-p {
-    margin-top: 1px;
+    margin-top: -5px;
     margin-left: 13px;
-    width: 247px;
+    width: 227px;
+    display: flex;
 }
 
-.fa-heart {
+.heart {
     margin-left: 293px;
-    margin-top: px;
-    width: 5px;
+    margin-top: -3em;
+    display: flex;
+    width: 21px;
+    height: 21px;
 }
 
 .footer {
@@ -225,17 +222,11 @@ p {
     padding-left: 25px;
 }
 
-.footer-h3 {
-    font-family: Shrikhand;
-    padding-top: 22px;
-    margin-bottom: 16px;
+.logo-footer {
+    margin-top: 22px;
+    margin-bottom: 10px;
     width: 137.58px;
-    height: 27px;
-    font-weight: 400;
-    font-style: italic;
-    font-size: 18px;
-    line-height: 26.24px;
-    color: #FFFFFF;
+    padding-bottom: -10px;
 }
 
 .fa-utensils {
